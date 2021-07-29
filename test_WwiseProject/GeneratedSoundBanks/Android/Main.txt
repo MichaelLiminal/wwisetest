@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2836875581	shock			\Default Work Unit\shock	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	159064532	488665__nodgez__shock-one	D:\Work Repos\Temp\_Wwise\test_WwiseProject\.cache\Android\SFX\488665__nodgez__shock-one_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\488665__nodgez__shock-one		174616
+

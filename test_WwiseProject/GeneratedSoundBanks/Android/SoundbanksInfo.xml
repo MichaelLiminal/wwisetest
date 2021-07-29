@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Android" BasePlatform="Android" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>D:\Work Repos\Temp\test\test_WwiseProject\</ProjectRoot>
-		<SourceFilesRoot>D:\Work Repos\Temp\test\test_WwiseProject\.cache\Android\</SourceFilesRoot>
-		<SoundBanksRoot>D:\Work Repos\Temp\test\test_WwiseProject\GeneratedSoundBanks\Android\</SoundBanksRoot>
+		<ProjectRoot>D:\Work Repos\Temp\_Wwise\test_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>D:\Work Repos\Temp\_Wwise\test_WwiseProject\.cache\Android\</SourceFilesRoot>
+		<SoundBanksRoot>D:\Work Repos\Temp\_Wwise\test_WwiseProject\GeneratedSoundBanks\Android\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>D:\Work Repos\Temp\test\test_WwiseProject\GeneratedSoundBanks\Android</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>D:\Work Repos\Temp\_Wwise\test_WwiseProject\GeneratedSoundBanks\Android</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
@@ -15,6 +15,21 @@
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3161908922" Language="SFX" Hash="1659000608">
+			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
+			<ShortName>Main</ShortName>
+			<Path>Main.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2836875581" Name="shock" ObjectPath="\Events\Default Work Unit\shock" DurationType="OneShot" DurationMin="0.989524" DurationMax="0.989524">
+					<IncludedMemoryFiles>
+						<File Id="159064532" Language="SFX">
+							<ShortName>488665__nodgez__shock-one.wav</ShortName>
+							<Path>SFX\488665__nodgez__shock-one_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
 		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>

@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{D21F09A9-0EE5-42C5-8011-9007DACE7183}" SchemaVersion="103">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{D21F09A9-0EE5-42C5-8011-9007DACE7183}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{D21F09A9-0EE5-42C5-8011-9007DACE7183}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="shock" ID="{9CCDA2E9-9A40-4ED8-BC70-8ED9DB92810C}">
+					<ChildrenList>
+						<Action Name="" ID="{F1BAC19D-E9BF-41A3-BDD2-16DAB297FB6D}" ShortID="373379402">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="488665__nodgez__shock-one" ID="{3B34601C-3AF0-44C3-AFEA-B4D202B990AC}" WorkUnitID="{9A491BBA-EE44-44F7-8366-C0C1D8829E22}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>
