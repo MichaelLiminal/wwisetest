@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{9A491BBA-EE44-44F7-8366-C0C1D8829E22}" SchemaVersion="103">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{9A491BBA-EE44-44F7-8366-C0C1D8829E22}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="395860__jokallset__hammering-metall" ID="{A7B53D4C-24FA-4C55-86F2-6FD50BFBEE5F}" ShortID="877008612">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3DED876D-2802-4D1E-8182-8ABAFA810E90}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C4F3A3A4-4991-4F21-BBFC-FEAEF7106358}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="395860__jokallset__hammering-metall" ID="{507394EA-6927-4F50-A8F2-4365BEAC3CCC}">
+							<Language>SFX</Language>
+							<AudioFile>395860__jokallset__hammering-metall.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="831320360"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="395860__jokallset__hammering-metall" ID="{507394EA-6927-4F50-A8F2-4365BEAC3CCC}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
